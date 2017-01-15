@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Model-Connector</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_remove_positions">Remove positions</string>
+    <string name="menu_upload">Upload changes</string>
+    <string name="menu_download">Redownload Map</string>
+
+    <string name="meters">Meters</string>
+    <string name="floor">Floor</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="question_confirm_remove">Are you sure you want to remove all mapped positions?</string>
+    <string name="question_confirm_upload">Are you sure you want to upload your changes?</string>
+    <string name="question_confirm_download">Are you sure you want to download new data?</string>
+    <string name="opening_data">Opening data...</string>
+    <string name="enable_location_service">Your location service which is necessary for positioning seems to be disabled, do you want to enable it?</string>
+    <string name="enable_location_service_yes">Yes</string>
+    <string name="enable_location_service_no">No</string>
+    <string name="downloading_data">Downloading...</string>
+    <string name="uploading_data">Uploading...</string>
+
+    <string name="webservice_url">Webservice-URL:</string>
+    <string name="auth_token">Authentication-Token:</string>
+    <string name="current_project">Project:</string>
+    <string name="discard">Discard</string>
+    <string name="save">Save</string>
+
+    <string name="map_position">Map</string>
+    <string name="remove_position">Remove</string>
+
+    <string name="popup_x">X:</string>
+    <string name="popup_y">Y:</string>
+    <string name="popup_material">Material:</string>
+    <string name="popup_content">Content:</string>
+    <string name="popup_beacon">Beacon:</string>
+
+    <string name="proximity_category_immediate">IMMEDIATE</string>
+    <string name="proximity_category_near">NEAR</string>
+    <string name="proximity_category_far">FAR</string>
+    <string name="proximity_category_unknown">UNKNOWN</string>
+</resources>

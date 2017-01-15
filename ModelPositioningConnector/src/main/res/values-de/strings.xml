@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Model-Connector</string>
+
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="drawer_open">Öffnen</string>
+    <string name="drawer_close">Schließen</string>
+
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_remove_positions">Positionen entfernen</string>
+    <string name="menu_upload">Änderungen hochladen</string>
+    <string name="menu_download">Karte downloaden</string>
+
+    <string name="meters">Meter</string>
+    <string name="floor">Stockwerk</string>
+    <string name="confirmation">Bestätigung</string>
+    <string name="question_confirm_remove">Sind Sie sicher, dass Sie alle gemappten Positionen entfernen wollen?</string>
+    <string name="question_confirm_upload">Sind Sie sicher, dass Sie die Änderungen hochladen wollen?</string>
+    <string name="question_confirm_download">Sind Sie sicher, dass Sie die Daten neu herunterladen wollen?</string>
+    <string name="opening_data">Öffne Daten...</string>
+    <string name="enable_location_service">Der notwendige location service ist derzeit deaktiviert, wollen Sie ihn aktivieren?</string>
+    <string name="enable_location_service_yes">Ja</string>
+    <string name="enable_location_service_no">Nein</string>
+    <string name="downloading_data">Daten werden gedownloaded...</string>
+    <string name="uploading_data">Daten werden hochgeladen...</string>
+
+    <string name="webservice_url">Webservice-URL:</string>
+    <string name="auth_token">Authentifizierungs-Token:</string>
+    <string name="current_project">Projekt:</string>
+    <string name="discard">Verwerfen</string>
+    <string name="save">Speichern</string>
+
+    <string name="map_position">Map</string>
+    <string name="remove_position">Entfernen</string>
+
+    <string name="popup_x">X:</string>
+    <string name="popup_y">Y:</string>
+    <string name="popup_material">Material:</string>
+    <string name="popup_content">Content:</string>
+    <string name="popup_beacon">Beacon:</string>
+
+    <string name="proximity_category_immediate">IMMEDIATE</string>
+    <string name="proximity_category_near">NEAR</string>
+    <string name="proximity_category_far">FAR</string>
+    <string name="proximity_category_unknown">UNKNOWN</string>
+</resources>

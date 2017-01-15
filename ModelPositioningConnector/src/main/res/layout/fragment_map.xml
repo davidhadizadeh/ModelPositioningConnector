@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_map_floor_sp" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+            android:id="@+id/fragment_map_buttons_ll"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true">
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/map_position"
+                android:layout_weight="1"
+                android:layout_marginLeft="-5dip"
+                android:id="@+id/fragment_map_map_btn"
+                android:layout_gravity="bottom"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/remove_position"
+                android:layout_weight="1"
+                android:layout_marginRight="-5dip"
+                android:id="@+id/fragment_map_remove_btn"
+                android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+    <de.hadizadeh.positioning.roommodel.android.TouchView
+            android:id="@+id/fragment_map_canvas_box"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/fragment_map_buttons_ll"
+            android:layout_below="@+id/fragment_map_floor_sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_main_data_path">de.hadizadeh.positioning.connector/files/PositioningData</string>
+    <string name="settings_default_webservice">http://hadizadeh.de:8080/indoor-positioning/</string>
+    <string name="settings_default_token">74dc2f347d73ef4fbec38de0429b1357fcb5687f1879495c6e2bf289f6d3411eb391bf4bd2608176749040478bdac6fb5566543cedc9b963114a3b4cc98a032f</string>
+    <string name="settings_default_project">PositioningProject</string>
+
+    <string name="extra_popup_visible">extra_popup_visible</string>
+</resources>

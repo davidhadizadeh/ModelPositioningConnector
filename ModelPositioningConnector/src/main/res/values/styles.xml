@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="poupBox" parent="AppTheme">
+        <item name="android:textViewStyle">@style/popUpText</item>
+    </style>
+
+    <style name="popUpText" parent="AppTheme">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
